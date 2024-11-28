@@ -70,7 +70,7 @@ int findMin(struct Node *root)
 {
     if (root == NULL)
     {
-        return -1; // Sentinel value, or handle it as per requirement
+        return -1; 
     }
     while (root->left != NULL)
     {
